@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+flask
+Pillow
+psutil
+gunicorn
