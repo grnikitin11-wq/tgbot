@@ -11,9 +11,9 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from flask import Flask, request, render_template_string
 
 # ==================== КОНФИГ ====================
-TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
-ADMIN_CHAT_ID = int(os.environ.get("ADMIN_CHAT_ID", "0"))
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "") or os.environ.get("RENDER_EXTERNAL_URL", "")
+TOKEN = os.environ.get("9074986385:AAEihpOekACCogl9c4dP7f8ICU_wPbE4pJ8", "")
+ADMIN_CHAT_ID = int(os.environ.get("6391707088", "0"))
+WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "") or os.environ.get("https://tgbot-5pln.onrender.com", "")
 
 if not TOKEN:
     raise RuntimeError("Не задан TELEGRAM_TOKEN в переменных окружения")
